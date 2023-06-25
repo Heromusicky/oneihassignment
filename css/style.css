@@ -6,11 +6,12 @@
 
 body {
   background-color: #ccc;
+  margin: 0;
+  
 }
 
 .main {
-  border: 3px solid;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -26,7 +27,7 @@ header {
 }
 nav {
   display: flex;
-  border: 1px solid red;
+  
   justify-content: space-between;
   padding: 10px;
   height: 100%;
@@ -44,7 +45,7 @@ nav {
 #peace {
   width: 30%;
 }
-.navbar{ border: 1px solid white;
+.navbar{ 
 width: 500px;
 color: white;
 height: 100%;}
@@ -53,7 +54,164 @@ height: 100%;}
 justify-content: space-around;
 align-items: center;
 }
-.navbar ul li{  border: 1px solid white;
+.navbar ul li{  
 margin: 10px; 
 padding: 10px;
-list-style-type: none;}
+list-style-type: none;
+}
+
+li a,a:visited{ color:white;
+    text-decoration: none;
+}
+li a:hover,a:focus{
+     color: yellow;
+background-color: gray;}
+.uline a:hover,a:focus{
+    color: yellow;
+
+text-decoration: underline;}
+.right-buttons{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    
+    
+    
+    
+}
+
+.open{
+    color: black;
+    background-color: rgb(237, 192, 0);
+    height: 50px;
+    border-radius: 4px;
+    width: 30%;
+    margin-right: 10px;
+
+}
+.sign{color: rgb(237, 192, 0);
+    background-color: transparent;
+    width: 30%;
+    margin-right: 10px;
+    
+
+}
+.hero{ height: 650px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+
+background-image: url(/img/exness-home-page-banner-desktop.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.hero h1{ 
+    
+    padding-top:  70px;
+    padding-left:  50px;
+    width: 19ch;
+    color:white;
+    font: 60px sans-serif;
+    
+}
+.hero h3{
+    color:white;
+    padding-top:  40px;
+    padding-left:  70px;
+    width: 43ch;
+    
+}
+.account{ display: flex;
+    height: 50px; 
+width: 200px; 
+background-color: rgb(237, 192, 0);
+justify-content: center;
+align-items: center;
+margin-left: 70px;
+margin-top: 50px;
+border-radius: 4px;
+
+}
+.features{ height: 550px; 
+background-color: rgb(58, 57, 57);}
+.features{ color: white;
+    
+display: flex;
+align-items: center;
+flex-direction: column;}
+h1,p,a{ margin: 25px;}
+h1{ font-size: 2em;}
+p{ font-size: 24px;}
+a{
+    font-size: 1em;
+}
+img{ width: 90%;
+height: auto;}
+.twoflex{
+    display: flex;
+    background-color: white;
+    
+}
+
+
+.vpsdetails{
+   
+    background-color: #0f171c;
+    height: 250px;
+    width: 50%;
+    color: white;
+    padding: 70px;
+    
+}
+
+.Price{
+   
+    background-color: #8D9194;
+    height: 250px;
+    width: 50%;
+    color: white;
+    padding: 70px;
+    
+}
+.feature2{ background-color: white;
+height: 600px;
+/* display: flex; */
+justify-content: center;
+padding: 50px;
+}
+.feature2 h1{
+
+    text-align: center;
+}
+
+.flex2{
+    
+    height: 400px;
+    
+   display: flex;
+   margin: 20px;
+   
+
+}
+.item1{
+    width: 50%;
+   background-color: black; 
+   height: 100%;
+   border-radius: 6px 0 0 6px;
+   
+}
+.item2{
+    height: 100%;
+    background-color: #8D9194;
+    width: 50%;
+    border-radius:0 6px 6px 0;
+
+}
+.item1 p{ color: white;
+font-size: 2em;
+padding-top: 20px;
+margin-bottom: 50px;}
+.Standard{ display: flex;
+}
+.Standard p{ text-decoration:underline dotted;}
