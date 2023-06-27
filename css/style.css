@@ -32,15 +32,15 @@ nav {
   height: 100%;
   position: relative;
 }
-.translate{
-    position: absolute;
-    top: 10;
-    right: 20px;
-    height: 50px;
-width: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
+.translate {
+  position: absolute;
+  top: 10;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -71,7 +71,6 @@ align-items: center;
   margin: 10px;
   padding: 10px;
   list-style-type: none;
-  
 }
 
 li a,
@@ -83,7 +82,6 @@ li a:hover,
 a:focus {
   color: yellow;
   background-color: gray;
-  
 }
 .uline a:hover,
 a:focus {
@@ -253,59 +251,99 @@ img {
   justify-content: center;
   align-items: center;
 }
-.details button{color: rgb(237, 192, 0);
-    background-color:transparent ;
-    height: 50px;
-    border-radius: 4px;
-    width: 100%;
-    border: 2px solid rgb(237, 192, 0);
-    
-    margin-right: 10px;}
-    .item2 p {
-        color: black;
-        font-size: 2em;
-        padding-top: 20px;
-        margin-bottom: 20px;}
-        .professional {
-            display: flex;
-          }
-          .professional p {
-            text-decoration: underline dotted;
-          }
-          #feature2{
-            font-size: 16px;
-          }
-          .details2 {
-            height: 50px;
-            /* border: 1px solid rgb(237, 192, 0); */
-            width: 200px;
-          
-            display: flex;
-            background-color: transparent;
-            position: absolute;
-            right: 20px;
-            bottom: 20px;
-            justify-content: center;
-            align-items: center;
-          }
-          .details2 button{color:#333;
-            background-color:transparent ;
-            height: 50px;
-            border-radius: 4px;
-            width: 100%;
-            border: 2px solid #33333362;
-            
-            margin-right: 10px;}
-            .chat{ position: fixed;
-            bottom: 20px;
-        right: 20px;
-    background-color: rgb(237, 192, 0);
-height: 50px;
-width: 50px;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;}
-.chat img{ height: 20px;
-width: 20px;
+.details button {
+  color: rgb(237, 192, 0);
+  background-color: transparent;
+  height: 50px;
+  border-radius: 4px;
+  width: 50%;
+  border: 2px solid rgb(237, 192, 0);
+
+  margin-right: 10px;
 }
+.item2 p {
+  color: black;
+  font-size: 2em;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.professional {
+  display: flex;
+}
+.professional p {
+  text-decoration: underline dotted;
+}
+#feature2 {
+  font-size: 16px;
+}
+.details2 {
+  height: 50px;
+  /* border: 1px solid rgb(237, 192, 0); */
+  width: 200px;
+
+  display: flex;
+  background-color: transparent;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.details2 button {
+  color: #333;
+  background-color: transparent;
+  height: 50px;
+  border-radius: 4px;
+  width: 100%;
+  border: 2px solid #33333362;
+
+  margin-right: 10px;
+}
+.chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(237, 192, 0);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat img {
+  height: 20px;
+  width: 20px;
+}
+.stat {
+  display: flex;
+  height: 600px;
+
+  width: 100%;
+}
+.stat1 {
+  width: 50%;
+  padding-top: 150px;
+}
+.stat1 a {
+  color: #333;
+  font-size: 20px;
+}
+.stat2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.openacc {
+  display: flex;
+  height: 500px;
+  border: 1px solid;
+  background-image: url(/img/CTA-Image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+.openacc1{ color: white;
+margin: 20px;
+text-align: center;}
